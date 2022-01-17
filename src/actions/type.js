@@ -1,0 +1,4 @@
+export const GET_ERRORS = "GET_ERRORS";
+export const ADD_WIDGETS = "ADD_WIDGETS";
+export const EXTRACT_SELECTOR = "EXTRACT_SELECTOR";
+export const ADD_URL_WIDGET = "ADD_URL_WIDGET";

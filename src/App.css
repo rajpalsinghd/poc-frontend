@@ -1,0 +1,209 @@
+/***SPIN**/
+.ant-spin-nested-loading {
+  height: inherit !important;
+}
+.ant-spin-blur::after {
+  opacity: 0.2 !important;
+}
+.ant-spin-nested-loading > div > .ant-spin {
+  top: 17.5px !important;
+}
+.loading-text {
+  font-size: 1.2em;
+  line-height: 2.3em;
+}
+.ant-spin-blur {
+  opacity: 1 !important;
+  top: 50px !important;
+}
+.site-area {
+  height: 49.5vh;
+}
+.card {
+  box-shadow: 1px 1px 10px rgb(0 0 0 / 30%), 0px 3px 20px rgb(0 0 0 / 22%);
+}
+.card-body {
+  padding: 0 !important;
+}
+.site-drawer-render-in-current-wrapper {
+  position: relative;
+  height: 50vh;
+  overflow-x: auto;
+  padding-bottom: 5px px;
+}
+.site-drawer-render-in-current-wrapper .ant-drawer-content-wrapper {
+  width: -webkit-fill-available !important;
+}
+.site-drawer-render-in-current-wrapper1 .ant-drawer-right {
+  right: 0;
+  height: 49vh;
+}
+
+.site-drawer-render-in-current-wrapper1 .ant-btn {
+  width: -webkit-fill-available !important;
+  margin-bottom: 10px !important;
+}
+
+iframe {
+  width: -webkit-fill-available;
+  height: 49.5vh;
+}
+/* .anticon svg {
+  margin: -40% 0 0 0 !important;
+} */
+/****/
+.canvas-drawer-btn .ant-btn {
+  border-radius: 50px !important;
+  float: right !important;
+  margin-right: 2% !important;
+  padding: 0px 9px 0px 9px !important;
+}
+.canvas-drawer-btn .ant-btn .anticon.anticon-plus > svg,
+.ant-btn .anticon.anticon-minus > svg {
+  margin: -40% 0 0 0 !important;
+}
+.canvas-drawer-btn .anticon-play-circle > svg {
+  margin: -40% 0 0 0 !important;
+}
+.anticon-aim svg {
+  /* margin: -40% 0 0 0 !important; */
+  margin: -5px 0 0 -6px !important;
+}
+
+/**React Flow Canvas**/
+.react-flow {
+  overflow-x: auto !important;
+}
+
+/***widget-detail-card**/
+.widget-detail-card .card {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  /* height: 41.5vh; */
+}
+
+.widget-detail-card .widegt-title {
+  font-size: 1em;
+  line-height: 2em;
+  text-transform: uppercase;
+}
+.widget-detail-card .outer {
+  position: relative;
+  margin: 5px 0 0 0px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.widget-detail-card .inner {
+  width: inherit;
+  text-align: center;
+}
+
+.widget-detail-card .label-cross {
+  font-size: 0.8em;
+  line-height: 2em;
+  text-transform: uppercase;
+  color: black;
+  transition: all 0.3s ease-in;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.widget-detail-card .inner:before,
+.widget-detail-card .inner:after {
+  position: absolute;
+  content: "";
+  height: 1px;
+  width: inherit;
+  background: #1890ff;
+  left: 0;
+  transition: all 0.3s ease-in;
+}
+
+.widget-detail-card .inner:before {
+  top: 50%;
+  transform: rotate(45deg);
+}
+
+.widget-detail-card .inner:after {
+  bottom: 50%;
+  transform: rotate(-45deg);
+}
+
+.widget-detail-card .outer:hover .label-cross {
+  opacity: 1;
+}
+
+.widget-detail-card .outer:hover .inner:before,
+.widget-detail-card .outer:hover .inner:after {
+  transform: rotate(0);
+}
+
+.widget-detail-card .outer:hover .inner:before {
+  top: 0;
+}
+
+.widget-detail-card .outer:hover .inner:after {
+  bottom: 0;
+}
+hr {
+  margin: 0rem 0 !important;
+  background-color: #526272 !important;
+}
+.form-details-area {
+  margin: 20px 0 0 0;
+}
+.form-details-area .ant-form-item {
+  margin-bottom: 14px !important;
+}
+.form-details-area .login-form-button {
+  width: -webkit-fill-available !important;
+  margin: 0 0 0 10px;
+}
+.form-details-area .aim-button {
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+}
+.form-details-area .ant-btn {
+  border-radius: 25px !important;
+}
+.form-details-area .ant-input {
+  border-radius: 25px !important;
+}
+.form-details-area .ant-input-number-input {
+  border-radius: 25px !important;
+}
+/*************************SCROLLBAR Starts*************************/
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #5f6464;
+  border-radius: 8px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #3b4041;
+}
+/*************************SCROLLBAR ENDS*************************/
+.main-hidden-canvas {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+  z-index: 9;
+  margin: 0px;
+  background: #c6cac8;
+}
+
+.main-hidden-canvas-b {
+  display: none;
+}

@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Drawer, Button, Row, Col } from "antd";
 import { AlignCenterOutlined, PlusOutlined } from "@ant-design/icons";
-import getXPath from "https://unpkg.com/get-xpath/index.esm.js";
 import { PropTypes } from "prop-types";
 import { connect } from "react-redux";
 import { extractXPathOrCss } from "../actions/canvasAreaAction";
@@ -29,7 +28,7 @@ class IframeDrawer extends Component {
 
   extractXpath = () => {
     var event = this.state.event;
-    this.props.extractXPathOrCss(getXPath(event.target));
+    //this.props.extractXPathOrCss(getXPath(event.target));
     //console.log(getXPath(event.target));
   };
   extractCss = () => {
@@ -76,7 +75,7 @@ class IframeDrawer extends Component {
               <Button onClick={this.extractCss}>Extract CSS selector</Button>
             </Col>
             <Col span={24}>
-              <Button onClick={this.extractXpath}>Extract XPath</Button>
+              <Button>Extract XPath</Button>
             </Col>
           </Row>
         </Drawer>
